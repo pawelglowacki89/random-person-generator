@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random person generator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Random person generator</h1>	
+	</header>
+
+	<main>
+		
+
+		<div>
+			<h2>Mark details you want to generate</h2>
+			<form>
+				<label for="pictureLarge">
+					<input type="checkbox" name="pictureLarge" id="pictureLarge">Large picture
+				</label>
+				<label for="pictureMedium">
+					<input type="checkbox" name="pictureMedium" id="pictureMedium">Medium picture
+				</label>
+				<label for="pictureThumbnail">
+					<input type="checkbox" name="pictureThumbnail" id="pictureThumbnail">Thumbnail
+				</label>
+				<label for="nameTitle">
+					<input type="checkbox" name="nameTitle" id="nameTitle">Title
+				</label>
+				<label for="nameFirst">
+					<input type="checkbox" name="nameFirst" id="nameFirst">Name
+				</label>
+				<label for="nameLast">
+					<input type="checkbox" name="nameLast" id="nameLast">Surname
+				</label>
+				<label for="gender">
+					<input type="checkbox" name="gender" id="gender">Gender
+				</label>
+				<label for="dob">
+					<input type="checkbox" name="dob" id="dob">Date of birth
+				</label>
+				<label for="cell">
+					<input type="checkbox" name="cell" id="cell">Phone
+				</label>
+				<label for="email">
+					<input type="checkbox" name="email" id="email">Email
+				</label>				
+				<label for="locationCity">
+					<input type="checkbox" name="locationCity" id="locationCity">Location
+				</label>								
+				<label for="all">
+					<input type="checkbox" name="toggle" id="all">Select/ Unselect all
+				</label>
+				<button id="create" type="button">Create</button>		
+			</form>			
+		</div>
+
+		<div>
+			<ul id="detailWindow">
+				
+			</ul>
+		</div>
+
+		<div>
+			<form>
+				<label for="htmlCode">
+					<textarea name="htmlCode" id="htmlCode" cols="90" rows="6" readonly></textarea>
+				</label>
+				<button id="copy" type="button">Copy HTML code</button>
+			</form>
+		</div>
+		
+		<footer>
+			
+		</footer>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>	
+</body>
+</html>
